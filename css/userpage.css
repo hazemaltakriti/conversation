@@ -1,0 +1,173 @@
+@font-face {
+    font-family: 'century Gothic';
+    font-weight: 700;
+    font-style: normal;
+    src: local('../fonts/CenturyGothicRegular.ttf'),
+  }
+  body{
+    font-family: 'century Gothic'
+  }
+#box-massage_parent{
+    overflow-y:auto;
+    
+}
+body div{
+  overflow-wrap: break-word;
+}
+body::-webkit-scrollbar {
+width: 4px;
+height: 4px;
+}
+body::-webkit-scrollbar-button {
+width: 0px;
+height: 0px;
+max-height:5px;
+}
+body::-webkit-scrollbar-thumb {
+background: #910ff1;
+border: 0px none #ffffff;
+border-radius: 50px;
+max-height:5px;
+}
+body::-webkit-scrollbar-thumb:hover {
+background-color: red
+}
+body::-webkit-scrollbar-thumb:active {
+background: rgb(94, 95, 95);
+max-height:5px;
+}
+body::-webkit-scrollbar-track {
+background: #666666;
+border: 0px none #ffffff;
+max-height:5px;
+border-radius: 0px;
+}
+body::-webkit-scrollbar-track:hover {
+background: #666666;
+}
+body::-webkit-scrollbar-track:active {
+background: #333333;
+}
+body::-webkit-scrollbar-corner {
+background: transparent;
+max-height:5px;
+}
+
+
+ 
+  .users{
+      cursor:pointer;
+     
+  }
+  .receiver{
+      background-color:#d73a31;
+      color:white;
+      border-top-right-radius: 24px;
+      border-bottom-left-radius: 24px;
+      padding:5px;
+      font-size:16px;
+      margin-top:2px;
+  }
+  .sender{
+      background-color:#08708a;
+     font-size:16px;
+      color:white;
+      border-top-left-radius: 24px;
+      border-bottom-right-radius: 24px;
+      padding:5px;
+      margin-top:2px;
+  }
+  .receiver span{
+      position: relative;
+      left: 15px;
+  }
+  .sender span{
+    position: relative;
+    left: 15px;  
+  }
+  #allusers{
+      padding:0px;
+  }
+  .users{
+      font-size:20px;
+  }
+  .users:active{
+      background-color: green !important;
+  }
+  .users:hover{
+      background-color: #802CEE !important;
+  }
+      .users:nth-child(odd) {
+      background: #56b1bf;
+  }
+  #box-massage_parent::-webkit-scrollbar-thumb{
+    position:fixed;
+  }
+  #user_name{
+      display: none;
+      cursor: pointer;
+      height: inherit;
+  }
+  #lastconv .users span{
+    text-transform: initial;
+    font-size: 14px;
+    color:wheat;
+}
+#lastconv,#allusers{
+    overflow: auto;
+}
+.online{
+    color:green;
+}
+.offline {
+    color:#525252;
+}
+ [data-placement=read] {
+    color:yellow
+}
+.btn{
+
+    padding: 4px 12px;
+  
+}
+#box-massage_parent::-webkit-scrollbar {
+    position:  fixed;
+    width: 3px;
+    height: 8px;
+    background-color:#08708a /* or add it to the track */
+  }
+  #box-massage_parent::-webkit-scrollbar-thumb {
+    background-color: #d73a31;
+  
+  }
+  #allusers::-webkit-scrollbar {
+    position:  fixed;
+    width: 3px;
+    height: 8px;
+    background-color:#08708a /* or add it to the track */
+  }
+  #allusers::-webkit-scrollbar-thumb {
+    background-color: #d73a31;
+  }
+  #allusers::-moz-scrollbar {
+    position:  fixed;
+    width: 3px;
+    height: 8px;
+    background-color:#08708a /* or add it to the track */
+  }
+  #allusers::-moz-scrollbar-thumb {
+    background-color: #d73a31;
+  }
+  #lastconv::-webkit-scrollbar {
+    position:  fixed;
+    width: 3px;
+    height: 8px;
+    background-color:#08708a /* or add it to the track */
+  }
+  #lastconv::-webkit-scrollbar-thumb {
+    background-color: #d73a31;
+  
+  }
+  #sendmassage +button,#sendmassage{
+    display: none;
+  }
