@@ -1,3 +1,4 @@
+url https://randchatcom.000webhostapp.com
 /*
 autoload.php : file for autoloading classes 
 login.php:for user login and sign up
